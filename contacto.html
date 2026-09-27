@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5809021727634185" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="/icon-192.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#121214">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<title>Contacto — BRUTAL.CLICK</title>
+<meta name="description" content="Contacta con BRUTAL.CLICK: colaboraciones, prensa y contenido.">
+<link rel="canonical" href="https://brutal.click/contacto.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contacto — BRUTAL.CLICK">
+<meta property="og:description" content="Contacta con BRUTAL.CLICK: colaboraciones, prensa y contenido.">
+<meta property="og:url" content="https://brutal.click/contacto.html">
+<meta property="og:image" content="https://brutal.click/og-image.png">
+<meta property="og:site_name" content="BRUTAL.CLICK">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contacto — BRUTAL.CLICK">
+<meta name="twitter:description" content="Contacta con BRUTAL.CLICK: colaboraciones, prensa y contenido.">
+<meta name="twitter:image" content="https://brutal.click/og-image.png">
+<link rel="stylesheet" href="styles.css">
+<style>
+  form.contact{ display:grid; gap:16px; max-width:520px; }
+  form.contact label{ font-family:var(--font-mono); font-size:12px; text-transform:uppercase; color:var(--ink-dim); display:block; margin-bottom:6px; }
+  form.contact input, form.contact textarea{
+    width:100%; background:var(--panel); border:1px solid var(--line); color:var(--ink);
+    font-family:var(--font-body); font-size:14px; padding:12px 14px;
+  }
+  form.contact textarea{ min-height:140px; resize:vertical; }
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Saltar al contenido</a>
+
+<header class="site">
+  <div class="wrap bar">
+    <a href="index.html" class="logo">BRUTAL<span>.</span>CLICK</a>
+    <nav class="main" data-open="false">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="articulos.html">Artículos</a></li>
+        <li><a href="wallpapers.html">Wallpapers</a></li>
+        <li><a href="sobre.html">Sobre Brutal</a></li>
+        <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" aria-expanded="false">MENÚ</button>
+  </div>
+</header>
+
+<section id="main" class="hero" style="padding-bottom:0">
+  <div class="wrap">
+    <span class="hero__tag">Hablemos</span>
+    <h1>Contacto</h1>
+    <p class="lead">Colaboraciones de marca, prensa o simplemente algo que decir. Responde el equipo BRUTAL.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <form class="contact" name="contacto" method="POST" data-netlify="true" action="/gracias.html" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contacto">
+      <p class="hidden" style="display:none">
+        <label>No rellenar: <input name="bot-field"></label>
+      </p>
+      <div>
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" required>
+      </div>
+      <div>
+        <label for="email">Correo</label>
+        <input id="email" name="email" type="email" required>
+      </div>
+      <div>
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+      </div>
+      <button class="btn btn--primary" type="submit">Enviar mensaje</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap row">
+    <span class="logo" style="font-size:18px">BRUTAL<span>.</span>CLICK</span>
+    <nav>
+      <ul>
+        <li><a href="articulos.html">Artículos</a></li>
+        <li><a href="wallpapers.html">Wallpapers</a></li>
+        <li><a href="sobre.html">Sobre Brutal</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+        <li><a href="privacidad.html">Privacidad</a></li>
+        <li><a href="aviso-legal.html">Aviso Legal</a></li>
+      </ul>
+    </nav>
+    <small>© <span data-year></span> BRUTAL.CLICK</small>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

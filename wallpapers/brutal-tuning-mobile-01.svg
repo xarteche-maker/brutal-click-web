@@ -1,0 +1,20 @@
+<svg viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1080" height="1920" fill="#121214"/>
+  <defs>
+    <linearGradient id="gm2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f2733"/>
+      <stop offset="100%" stop-color="#121214"/>
+    </linearGradient>
+    <pattern id="gridm" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0V50" fill="none" stroke="#2c2a31" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#gm2)"/>
+  <rect width="1080" height="1920" fill="url(#gridm)"/>
+  <polygon points="0,1920 400,1920 750,900 500,300 0,0" fill="#ff2e6e" opacity="0.08"/>
+  <g stroke="#ffb020" stroke-width="2" opacity="0.4">
+    <line x1="0" y1="960" x2="1080" y2="960"/>
+  </g>
+  <text x="70" y="1680" font-family="Impact, sans-serif" font-size="90" fill="#ededec" opacity="0.9" letter-spacing="3">BRUTAL</text>
+  <text x="74" y="1720" font-family="monospace" font-size="18" fill="#9a98a3" letter-spacing="5">TUNING // MÓVIL</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#121214"/>
+  <defs>
+    <radialGradient id="spray1" cx="30%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#ff2e6e" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ff2e6e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spray2" cx="75%" cy="65%" r="50%">
+      <stop offset="0%" stop-color="#ffb020" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffb020" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spray3" cx="55%" cy="15%" r="35%">
+      <stop offset="0%" stop-color="#c9cdd3" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#c9cdd3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#spray1)"/>
+  <rect width="1920" height="1080" fill="url(#spray2)"/>
+  <rect width="1920" height="1080" fill="url(#spray3)"/>
+  <circle cx="1500" cy="850" r="8" fill="#ff2e6e" opacity="0.6"/>
+  <circle cx="1550" cy="900" r="4" fill="#ff2e6e" opacity="0.5"/>
+  <circle cx="300" cy="200" r="6" fill="#ffb020" opacity="0.5"/>
+  <text x="90" y="960" font-family="Impact, sans-serif" font-size="110" fill="#ededec" opacity="0.85" letter-spacing="4">BRUTAL</text>
+  <text x="94" y="1000" font-family="monospace" font-size="20" fill="#9a98a3" letter-spacing="6">STREET ART // 4K</text>
+</svg>

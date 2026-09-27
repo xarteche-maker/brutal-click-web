@@ -1,0 +1,15 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#121214"/>
+  <defs>
+    <linearGradient id="g3" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a1a33"/>
+      <stop offset="100%" stop-color="#121214"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#g3)" opacity="0.7"/>
+  <text x="-40" y="300" font-family="Impact, sans-serif" font-size="340" fill="none" stroke="#ff2e6e" stroke-width="3" opacity="0.5" letter-spacing="0">STREET</text>
+  <text x="-20" y="650" font-family="Impact, sans-serif" font-size="340" fill="#1b1a1f" stroke="#c9cdd3" stroke-width="2" opacity="0.6">WEAR</text>
+  <rect x="90" y="850" width="200" height="60" fill="#ffb020"/>
+  <text x="110" y="892" font-family="monospace" font-size="24" fill="#121214" letter-spacing="2">BRUTAL</text>
+  <text x="94" y="1000" font-family="monospace" font-size="20" fill="#9a98a3" letter-spacing="6">STREETWEAR // 4K</text>
+</svg>
